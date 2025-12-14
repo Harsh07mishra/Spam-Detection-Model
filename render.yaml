@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: spam-classifier
+    runtime: python
+    buildCommand: |
+      python3.10 -m pip install --upgrade pip setuptools wheel
+      python3.10 -m pip install -e .
+    startCommand: python3.10 app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
+      - key: PIP_NO_CACHE_DIR
+        value: "1"
