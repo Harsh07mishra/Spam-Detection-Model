@@ -15,11 +15,6 @@ It uses:
 
 🚀 Automatic deployment with Render (render.yaml, runtime.txt, requirements.txt)
 
-🎬 Demo (Placeholder GIF)
-
-Replace with your own GIF showing prediction UI.
-
-<p align="center"> <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="500px"> </p>
 🏗️ System Architecture
 flowchart LR
     A[User Input Message] --> B[Text Preprocessing]
